@@ -6,11 +6,29 @@ body {
 }
 
 /* HEADER */
+
 #header_nav {
   background-color: #8bc4b2;
   border-radius: 0;
   border: 0;
+  /*height: 60px;*/
 }
-.navbar-brand a:hover h1, .navbar-brand a:focus {
+.navbar-brand {
+	padding-top: 15px;
+}
+.navebar-brand h1 {
+	font-size: 0.5em;
+	margin-top: -15px;
+	margin-bottom: 0px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+
+#nav-list {
+  text-align: center;
+}
+
+#titel_top {
+  color: #000000;
 }
